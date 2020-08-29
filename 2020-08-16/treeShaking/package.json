@@ -1,0 +1,25 @@
+{
+  "name": "rollup-webpack",
+  "version": "1.0.0",
+  "description": "rollup webpack comparation",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "rollup -c",
+    "webpack": "webpack --config webpack.config.js",
+    "cc": "sh closureCompiler.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rollup": "^2.26.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "terser-webpack-plugin": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^4.0.0-beta.2"
+  }
+}
